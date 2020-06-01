@@ -4,7 +4,7 @@
 var ds = argument[0];
    
 if (is_undefined(ds) || !ds_object_is_valid(ds))
-	return 0;
+	return undefined;
    
 var type = ds[@ DS_TYPE],
 	clone = (type != ds_type_grid)? ds_object_create(type) : 0,
