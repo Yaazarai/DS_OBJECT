@@ -39,5 +39,5 @@ ds_tuple_read(ds_object, index[0, 1]);
 ```
 DS_TUPLE_WRITE will write a `value` to the tuple at an `index[0 or 1]`.
 ```GML
-ds_tuple_read(ds_object, index, value);
+ds_tuple_read(ds_object, index[0 or 1], value);
 ```
