@@ -1,5 +1,5 @@
 # DS_OBJECT
-A wrapper for GML data structures for type checking.
+A wrapper for GML data structures for type checking. Valid types: `ds_type_list`, `ds_type_grid`, `ds_type_map`, `ds_type_queue`, `ds_type_stack`, `ds_type_priority`, `ds_type_ array`, `ds_type_2darray`, `ds_type_tuple`. Please note that the last three types are data structures, but they're not ds_* functions, just standard arrays included for type checking.
 
 DS_OBJECT_CREATE will create any of the specified GML data structures given an optional parameter for [width/length] or [height] as required by each data structure.
 ```GML
@@ -11,7 +11,7 @@ ds_object_clone(ds_object);
 ```
 DS_OBJECT_COPY will copy the contents of the `source` ds_object to the `destination` ds_object.
 ```GML
-ds_object_copy(source, destionation);
+ds_object_copy(source, destination);
 ```
 DS_OBJECT_DESTROY will delete the ds_object you pass to it from dynamic memory.
 ```GML
