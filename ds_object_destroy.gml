@@ -27,4 +27,4 @@ switch(ds[@ DS_TYPE]) {
     break;
 }
 
-return -1;
+return undefined;
