@@ -9,6 +9,8 @@ var dsobject = 0,
 #macro ds_type_array -1
 #macro ds_type_2darray -2
 #macro ds_type_tuple -3
+#macro DS_OBJECT 0
+#macro DS_TYPE 1
 
 switch(type) {
 	case ds_type_list:
