@@ -26,3 +26,5 @@ switch(ds[@ DS_TYPE]) {
         ds_priority_destroy(ds[@ DS_OBJECT]);
     break;
 }
+
+return -1;
