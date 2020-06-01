@@ -4,7 +4,8 @@
 
 var srce = argument[0], dest = argument[1];
    
-if (is_undefined(dest) || !ds_object_is_valid(dest) || srce[@ DS_TYPE] != dest[@ DS_TYPE])
+if (is_undefined(srce) || !ds_object_is_valid(srce) || (is_undefined(dest) || !ds_object_is_valid(dest) ||
+    srce[@ DS_TYPE] != dest[@ DS_TYPE])
     return 0;
    
 switch(srce[@ DS_TYPE]) {
