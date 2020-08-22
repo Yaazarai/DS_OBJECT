@@ -186,7 +186,7 @@ function ds_object_is_valid(_source) {
         break;
     }
     
-    return (ds_exists(_source.obj) || is_array(_source.obj)) && valid_type;
+    return (ds_exists(_source.obj, _source.ty) || is_array(_source.obj)) && valid_type;
 }
 
 function ds_object_source(_source) {
